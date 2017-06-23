@@ -1,0 +1,61 @@
+//
+//  PrefixHeader.pch
+//  ChatDemo
+//
+//  Created by ios on 17/4/18.
+//  Copyright © 2017年 YC_Z. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import <UIKit/UIKit.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <RongIMLib/RongIMLib.h>
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <UIImageView+WebCache.h>
+#import <MJRefresh.h>
+#import <QiniuSDK.h>
+
+
+#import "NSString+Category.h"
+#import "UIView+Frame.h"
+#import "Define.h"
+#import "Typedefine.h"
+#import "API.h"
+#import "ImageHandleManager.h"
+#import "ToolsManage.h"
+
+//#import "API.h"
+
+//---------------------自定义消息体----------------------------
+#import "CustomMessageContent.h"
+#import "GameInviteMessageContent.h"
+#import "GameDataMessageContent.h"
+
+
+//----------------------Model--------------
+#import "PartModel.h"
+
+#import "ChatListModel.h"
+#import "ChatMessageModel.h"
+#import "UserSelfInfoModel.h"
+
+
+
+
+#import "RequestData.h"
+#import "MadeFaceDataManager.h"
+#import "ChatManager.h"
+#import "UIManager.h"
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */

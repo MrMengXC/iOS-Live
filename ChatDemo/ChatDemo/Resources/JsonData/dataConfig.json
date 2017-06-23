@@ -1,0 +1,32 @@
+{
+
+    "basic_shape_select":["hairs", "faces", "eyebrowns", "eyes", "ears", "noses",  "mouths","breads"],
+    
+    "shape_select":["hairs", "faces", "eyebrowns", "eyes", "ears", "noses",  "mouths","breads","masks","headdress","glasses","speechs","bgImg"],
+
+    "delete_shape":["breads"],
+    
+    "shapes_location":	["bgImg","hairs_back","ears","faces","noses","eyes_sdw","eyes_sdw_right","eyes_white","eyes","eyes_right","eyebrowns","eyebrowns_right","breads","mouths_sdw","mouths_white","mouths","mouths_lower","hairs","masks","headdress","glasses","speechs"],
+    
+    "gender":["m", "w", "g"],
+	
+    "shapeExtId":{
+        "hairs":["hairs", "hairs_back"],
+        "faces":"faces",
+        "eyebrowns":["eyebrowns","eyebrowns_right"],
+        "eyes":["eyes","eyes_right","eyes_white","eyes_sdw","eyes_sdw_right"],
+        "ears":"ears",
+        "noses":"noses",
+        "mouths":["mouths","mouths_lower","mouths_white","mouths_sdw"],
+        "breads":"breads",
+        "bgImg":"bgImg",
+        "glasses":"glasses",
+        "headdress":"headdress",
+        "earing":"earing",
+        "headwear":"headwear",
+        "tattooing":"tattooing",
+        "masks":"masks",
+        "speechs":"speechs",
+    },
+   
+}
